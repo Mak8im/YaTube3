@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+
+header {
+    background-color: black;
+    padding: 1%;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bordered {
+    border: 1px solid red;
+}
+
+.profile-info-card {
+    background-color: #f1f1f1;
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 25px;
+    display: flex;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.profile-image {
+    max-width: 40%;
+}
+
+.profile-image img {
+    width: 100%;
+}
+
+.profile-info {
+    margin: 5% auto;
+
+}
+
+.city {
+    width: 80%;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.name {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about {
+    width: 80%;
+    margin: 5% auto;
+}
+.post{
+    flex-direction: column;
+    padding: 20px;
+    max-width: 700px;
+
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+
+}
+.reviews-item{
+    margin: 0 10px;
+}
+
+.post-image{
+    border-top-left-radius: 23px ;
+    border-top-right-radius: 23px ;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="/profile">Профиль</a>
+            </li>
+            <li>
+                <a href="#">Лента</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class = "profile-info-card post">
+            <img class = "post-image" src="https://fotooboi-ekb.ru/files/image/fotooboiprirodabavarskieAlpyderevyaoblakagreenfieldgorykrasivayaprirodanebopastbishhepejzazh.sm.jpg">
+        <p>Какая сегодня хорошая погода. Солнышко очень красиво.</p>
+            <div class = "reviews">
+                <img class = "reviews-item" src="https://cdn.discordapp.com/attachments/1142894846462394550/1146108314132955186/222-1.png">
+                <div class = "reviews-item">985</div>
+                <img class = "reviews-item" src="https://cdn.discordapp.com/attachments/1142894846462394550/1146109815630856212/222-1.png">
+                <div class = "reviews-item">4</div>
+            </div>
+
+
+        </div>
+        <div class = "profile-info-card post">
+            <img class = "post-image" src="https://fotooboi-ekb.ru/files/image/fotooboiprirodabavarskieAlpyderevyaoblakagreenfieldgorykrasivayaprirodanebopastbishhepejzazh.sm.jpg">
+        <p>Какая сегодня хорошая погода. Солнышко очень красиво.</p>
+            <div class = "reviews">
+                <img class = "reviews-item" src="https://cdn.discordapp.com/attachments/1142894846462394550/1146108314132955186/222-1.png">
+                <div class = "reviews-item">985</div>
+                <img class = "reviews-item" src="https://cdn.discordapp.com/attachments/1142894846462394550/1146109815630856212/222-1.png">
+                <div class = "reviews-item">4</div>
+            </div>
+
+
+        </div>
+    </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
+<script src="{% static "lenta.js" %}"></script>
+
+</body>

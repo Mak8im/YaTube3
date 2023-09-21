@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="#">Профиль</a>
+            </li>
+            <li>
+                <a href="/lenta">Лента</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="profile-info-card">
+            <div class="profile-image">
+                <img src="https://th.bing.com/th/id/R.9d32bec8058bd3595a63a08a8cc12ade?rik=9cCTin36GLU%2f5w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_87237.png&ehk=hVpH%2bC7rwlA1j2KqxGpMs1sp9l0RgM0jjRJsJsvDoPc%3d&risl=&pid=ImgRaw&r=0" alt="">
+            </div>
+            <div class="profile-info">
+                <div class="info-item name">
+                    <span>Иванов Иван</span>
+                </div>
+                <div class="info-item city">
+                    <span>Город: Екатеринбург</span>
+                </div>
+                <div class="info-item about">
+                    <span>О себе: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda commodi cum facere laudantium libero officia quis, reiciendis vel voluptatem!</span>
+                </div>
+            </div>
+
+
+        <div class="profile-info-card">
+            <div class="post-image"></div>
+
+        </div>
+    </main>
+</body>
+</html>
